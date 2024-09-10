@@ -1,0 +1,15 @@
+:root {
+  --body-color: #000000;
+  --body-bg-color: #fff;
+  --link-visited: #ff5f59;
+  --link-focus-outline: #2fafff;
+  --pre-bg-color: hsl(210, 28%, 93%);
+  --kbd-bg-color: hsl(210, 5%, 100%);
+  --kbd-border-color: hsl(210, 5%, 70%);
+  --sidenote-target-border-color: #d0bc00;
+  --footnotes-border-color: hsl(0, 0%, 39%);
+}
+
+a, a:visited {
+    font-weight: bold;
+}

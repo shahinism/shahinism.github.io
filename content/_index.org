@@ -1,0 +1,38 @@
+#+TITLE: Shahinism
+#+DATE: 2023-09-10T08:00:00-07:00
+#+DRAFT: false
+#+AUTHOR: Reza Khanipour
+
+
+{{< abstract title="Abstract" >}}
+
+I'm *Reza Khanipour*, also known as *Shahin* across internet. As a
+software enthusiast I enjoy practicing the art of digital creation,
+crafting abstract entities within computers. During day, I'm a
+[[https://linkedin.com/in/shahinism][software engineer and data consultant]] trying to bring some order into
+the digital chaos within non-tech companies. By night however, I wear
+my alchemist hat, trying to enhance my craft by bringing my ideas to
+life. This page is a window into my passions and ongoing adventure.
+
+{{< /abstract >}}
+
+{{< toc >}}
+
+* Projects
+
+The Following is a list of open source projects which I was one of the
+main contributors:
++ [[https://github.com/DataChefHQ/Inception][Inception]]: A project scaffolding template based on [[https://nixos.org][Nix]] and [[https://devenv.sh][Devenv]].
++ [[https://github.com/DataChefHQ/sparkle/][Sparkle]]: A meta framework for [[https://spark.apache.org][Apache Spark]], helping data engineers
+  to focus on solving business problems with highest quality.
++ [[https://github.com/shahinism/45r4r][45r4r]] (Asrar): My personal configuration stack based on [[https://nixos.org][NixOS]],
+  acting as my daily driver.
+  
+* Links
+
++ [[https://shahin.blog][Blog Archive]]: I've been blogging for quite some time, but not as
+  consistent as I like. Here you can find the old archive of
+  everything I wrote.
++ [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I follow 2nd hand memes and receive funny job
+  offers!
++ [[https://github.com/shahinism][Github]]: Where I stack all my creations.
