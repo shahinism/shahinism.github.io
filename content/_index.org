@@ -37,8 +37,8 @@ main contributors:
   learn more: [[https://en.wikipedia.org/wiki/Internet_censorship_in_Iran][Internet censorship in Iran]]{{< /sidenote >}}. {{< mark
   >}}I discontinued this project{{< /mark >}} given I no longer live
   there, and don't have the opportunity to make sure it works.
-+ [[https://github.com/shahinism/python-negar][python-negar]]: an editor (=virastar in Persian) for Persian text. It
-  was initially inspired by a [[https://github.com/aziz/virastar][Virastar]], a Ruby based project.
++ [[https://github.com/shahinism/python-negar][python-negar]]: an editor for Persian text. It was
+  initially inspired by a [[https://github.com/aziz/virastar][Virastar]], a Ruby based project.
 
 * Catch me
 
@@ -48,3 +48,7 @@ main contributors:
 + [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I share unpopular opinions, enjoy 2nd hand memes and
   receive funny job offers!
 + [[https://github.com/shahinism][Github]]: Where I stack all my creations.
++ {{< ot_mastodon >}}: Where I tweet since I refuged from Elon's X{{<
+  sidenote id="sn-x" side="left" >}}Some day I'll elaborate more on
+  this particular case. However, until then, I'd invite you to watch
+  [[https://www.youtube.com/watch?v=WYQxG4KEzvo][this video]] by Johnny Harris.{{< /sidenote >}}.

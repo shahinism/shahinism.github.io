@@ -1,3 +1,5 @@
 <label for="{{ .Get `id` }}" class="sidenote-toggle sidenote-number"></label>
 <input type="checkbox" id="{{ .Get `id` }}" class="sidenote-toggle" />
-<span class="sidenote">{{ .Inner | markdownify }}</span>
+<span class="sidenote {{ if eq (.Get `side`) `left`}}left{{ end }}">
+  {{ .Inner | markdownify }}
+</span>
