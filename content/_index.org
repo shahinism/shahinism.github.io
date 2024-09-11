@@ -25,14 +25,26 @@ main contributors:
 + [[https://github.com/DataChefHQ/Inception][Inception]]: A project scaffolding template based on [[https://nixos.org][Nix]] and [[https://devenv.sh][Devenv]].
 + [[https://github.com/DataChefHQ/sparkle/][Sparkle]]: A meta framework for [[https://spark.apache.org][Apache Spark]], helping data engineers
   to focus on solving business problems with highest quality.
-+ [[https://github.com/shahinism/45r4r][45r4r]] (Asrar): My personal configuration stack based on [[https://nixos.org][NixOS]],
-  acting as my daily driver.
-  
-* Links
++ [[https://github.com/shahinism/45r4r][45r4r]] (Asrar{{< sidenote id="sn-asrar" >}}Arabic, meaning secrets or
+  mystery{{< /sidenote >}}): My personal configuration stack based on
+  [[https://nixos.org][NixOS]], acting as my daily driver.
++ [[https://github.com/shahinism/docker-stunnel][docker-stunnel]]: [[https://www.stunnel.org/][Stunnel]] packaged as a docker container, to act as a
+  proxy to encrypt the connection between a client and a server using
+  TLS.
++ [[https://github.com/shahinism/docker-stealth-openvpn][docker-stealth-openvpn]]: A personal project to access open internet
+  while I was living in Iran{{< sidenote id="sn-1" >}}Starting early
+  2000s, Iran's governement started censoring internet resources,
+  learn more: [[https://en.wikipedia.org/wiki/Internet_censorship_in_Iran][Internet censorship in Iran]]{{< /sidenote >}}. {{< mark
+  >}}I discontinued this project{{< /mark >}} given I no longer live
+  there, and don't have the opportunity to make sure it works.
++ [[https://github.com/shahinism/python-negar][python-negar]]: an editor (=virastar in Persian) for Persian text. It
+  was initially inspired by a [[https://github.com/aziz/virastar][Virastar]], a Ruby based project.
+
+* Catch me
 
 + [[https://shahin.blog][Blog Archive]]: I've been blogging for quite some time, but not as
   consistent as I like. Here you can find the old archive of
   everything I wrote.
-+ [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I follow 2nd hand memes and receive funny job
-  offers!
++ [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I share unpopular opinions, enjoy 2nd hand memes and
+  receive funny job offers!
 + [[https://github.com/shahinism][Github]]: Where I stack all my creations.

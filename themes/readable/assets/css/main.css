@@ -13,3 +13,11 @@
 a, a:visited {
     font-weight: bold;
 }
+
+/* NOTE this is a hack to overcome Hugo's issue with
+ * reflecting ordered configuration in content table.
+ */
+nav ul {
+  list-style: none;
+  counter-reset: item 0;
+}
