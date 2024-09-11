@@ -2,8 +2,8 @@
 #+DATE: 2023-09-10T08:00:00-07:00
 #+DRAFT: false
 #+AUTHOR: Reza Khanipour
-
-
+#+DESCRIPTION: A window to the personal and professional journey of Reza Khanipour, a sotware and data engineer.
+#+FEATURE_TITLE: Shahin's Home Page
 {{< abstract title="Abstract" >}}
 
 I'm *Reza Khanipour*, also known as *Shahin* across internet. As a
@@ -37,8 +37,8 @@ main contributors:
   learn more: [[https://en.wikipedia.org/wiki/Internet_censorship_in_Iran][Internet censorship in Iran]]{{< /sidenote >}}. {{< mark
   >}}I discontinued this project{{< /mark >}} given I no longer live
   there, and don't have the opportunity to make sure it works.
-+ [[https://github.com/shahinism/python-negar][python-negar]]: an editor for Persian text. It was
-  initially inspired by a [[https://github.com/aziz/virastar][Virastar]], a Ruby based project.
++ [[https://github.com/shahinism/python-negar][python-negar]]: an editor for Persian text. It was initially inspired
+  by [[https://github.com/aziz/virastar][Virastar]], a Ruby based project with the same set of features.
 
 * Catch me
 
