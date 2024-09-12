@@ -9,7 +9,7 @@
     <p class="author">{{ .Params.author }} <br/> {{ .Date.Format "Jan 2006" }}</p>
   </header>
   <main>
-    {{ .Content }}
+    {{ partial "content.html" . }}
   </main>
   <footer>
     {{ partial "footer.html" . }}

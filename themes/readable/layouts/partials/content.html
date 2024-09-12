@@ -1,0 +1,4 @@
+{{ $pattern := `(<a\s+(?:[^>]*?\s+)?href="https?:\/\/[^"]*")` }}
+{{ $replace := `${1} target="_blank" rel="noopener noreferrer"` }}
+{{ $html := replaceRE $pattern $replace .Content | safeHTML }}
+{{ return $html }}
