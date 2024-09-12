@@ -1,8 +1,8 @@
 function ready(fn) {
   if (document.readyState !== 'loading') {
-    fn();
+    fn()
   } else {
-    document.addEventListener('DOMContentLoaded', fn);
+    document.addEventListener('DOMContentLoaded', fn)
   }
 }
 
@@ -22,6 +22,13 @@ function main() {
   Welcome to my Shahinism! 👋🏻😀
   `)
 
+  // Switch to dark-mode if it's preferred
+  if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
+    document.body.classList.add("latex-dark")
+  }
+
+  // Enable swup
+  const swup = new Swup()
 };
 
 ready(main)

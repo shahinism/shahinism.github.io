@@ -1,13 +1,19 @@
 :root {
-  --body-color: #000000;
-  --body-bg-color: #fff;
-  --link-visited: #ff5f59;
-  --link-focus-outline: #2fafff;
-  --pre-bg-color: hsl(210, 28%, 93%);
-  --kbd-bg-color: hsl(210, 5%, 100%);
-  --kbd-border-color: hsl(210, 5%, 70%);
-  --sidenote-target-border-color: #d0bc00;
-  --footnotes-border-color: hsl(0, 0%, 39%);
+    --body-color: #000000;
+    --body-bg-color: #fff;
+    --link-visited: #ff5f59;
+    --link-focus-outline: #2fafff;
+    --pre-bg-color: hsl(210, 28%, 93%);
+    --kbd-bg-color: hsl(210, 5%, 100%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --sidenote-target-border-color: #d0bc00;
+    --footnotes-border-color: hsl(0, 0%, 39%);
+}
+
+.latex-dark {
+    --body-color: #ffffff;
+    --body-bg-color: #000000;
+    --link-visited: #00bcff;
 }
 
 a, a:visited {
@@ -20,4 +26,32 @@ a, a:visited {
 nav ul {
   list-style: none;
   counter-reset: item 0;
+}
+
+/* swup animation */
+html.is-changing .transition-fade {
+    transition: opacity 0.25s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+/* External Links */
+a[href^='http']::after {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-left: 0.1em;
+    background-size: 100%;
+    /* Source: https://www.svgrepo.com/svg/510970/external-link?edit=true */
+    /* Generated using: https://yoksel.github.io/url-encoder/ */
+    /* NOTE there is a .latex-dark version */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='%2300bcff'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cg id='Interface / External_Link'%3E%3Cpath id='Vector' d='M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11' stroke='%23ff5f59' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.latex-dark a[href^='http']::after {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' stroke='%2300bcff'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cg id='Interface / External_Link'%3E%3Cpath id='Vector' d='M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11' stroke='%2300bcff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
