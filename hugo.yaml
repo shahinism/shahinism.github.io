@@ -1,4 +1,4 @@
-baseURL: 'https://shahinism.com'
+baseURL: '/'
 languageCode: 'en-us'
 title: 'Shahinism'
 theme: 'readable'
