@@ -2,6 +2,7 @@ baseURL: 'https://shahinism.com'
 languageCode: 'en-us'
 title: 'Shahinism'
 theme: 'readable'
+enableRobotsTXT: true
 
 markup:
   highlight:
