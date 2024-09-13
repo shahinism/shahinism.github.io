@@ -18,7 +18,7 @@ life. This page is a window into my passions and ongoing adventure.
 
 {{< toc >}}
 
-* Projects
+* Public Projects
 
 The Following is a list of open source projects which I was one of the
 main contributors:
@@ -39,6 +39,198 @@ main contributors:
   there, and don't have the opportunity to make sure it works.
 + [[https://github.com/shahinism/python-negar][python-negar]]: an editor for Persian text. It was initially inspired
   by [[https://github.com/aziz/virastar][Virastar]], a Ruby based project with the same set of features.
+
+* Work Experience
+** Client #4 at [[https://datachef.co][DataChef]]
++ *Timeline*: Jun 2023 → Jun 2024
++ *Role:* Lead Software Engineer
+
+The client was a multi-national company specialized in distribution of
+goods. The main challenge we were asked to help with, was the
+transition process from old ERP system and integration with
+Salesforce. In this priod I was active in the following areas together
+with my team:
+
++ *Productionizing the integration solution*:{{< sidenote id="sn-erp-1"
+  >}}This was the first region, but responsible for %60 of the total
+  transactions of the company.{{< /sidenote >}} Led the final steps
+  of the implementation of in-house ERP to Salesforce integration,
+  focusing on system connectivity and end-to-end testing. Managed
+  recovery processes, laying groundwork for long-term sales
+  performance improvement program.
++ *Design and Implementation of Integration Solution*: Based on the
+  learnings from previous ERP integration, I designed, and helped my
+  team in development and deployment of the integration between [[https://www.sap.com/netherlands/index.html][SAP]]
+  and [[https://www.salesforce.com/nl/][Salesforce]] for the next region, ensuring real-time data delivery
+  and availability in the AWS based data market place. This design and
+  artifacts build around it, were expected to be handed over and
+  utilized within 15 other regions which the client had sales
+  activities.
++ *Designed the Data Engineering Framework*: Developed the first
+  version of the data engineering framework, providing a solid base
+  for the future data projects.
++ *Automated End-to-End System Integration Test Framework*: Created and
+  implemented an automated testing framework to streamline system
+  integration, reduce cost, and expedite product delivery.
++ *Training and Handover*: Conducted a training program for a team of 20
+  data engineers to handover the project focusing on system
+  integration solutions. The initiative aimed to replicate the success
+  in the other regions and ensure the maintenance of the existing
+  systems.
+
+** Client #3 at [[https://datachef.co][DataChef]]
++ *Timeline:* Jul 2022 → Dec 2022
++ *Role*: Lead Software Engineer
+
+The client was an international shipping and courier services provider
+active in the [[https://nl.wikipedia.org/wiki/Benelux][Benelux]] area. As the lead software engineer, taking over
+the role from my predecessor, I was assigned to:
+
+1. Assist and guide a team of junior developers to prepare them to
+   become an expert data product team.
+2. Establish required standards for [[https://en.wikipedia.org/wiki/Data_mesh][data mesh]] readiness by creating
+   the initial data products.
+
+To achieve these goals, I:
+
++ Helped with the design of a data product take-in process, clarifying
+  the responsibilities and expectations of the involved entities.
++ Established standard data access patterns to increase flexibility,
+  based on the organization's analytical and operational needs.
++ Implemented a data programming model{{< sidenote id="sn-pm1" >}}This
+  is where I started working on DataChef's [[https://blog.datachef.co/datachefs-programming-model-overview/][Programming Model]] for data
+  products.{{< /sidenote >}} with the following objectives:
+  1. Improve communication between engineers and the business.
+  2. Enhance developer experience by helping them to focus on business
+     logic and provide optimal solutions.
+  3. Serve as a compass for the future design of the data products.
++ Designed, built and deployed data products which attracted business
+  and logistic users.
++ Planned and participated in the handover process to ensure the main
+  owners of the data products (domains) could maintain them.
+** Client #2 at [[https://datachef.co][DataChef]]
++ *Timeline:* Jan 2022 → Jun 2022
++ *Role:* Lead Data Engineer
+
+The client was a multi-national vehicle wholesaler startup, initiated
+within a parent company specialized in automobile leasing and fleet
+management. The following is a hand pick of my contributions as the
+lead data engineer for the [[https://en.wikipedia.org/wiki/Data_mesh][data mesh]] initiatives:
+
++ Designing a process to onboard new domains and data sources to ease
+  the collaboration between different teams.
++ Facilitating knowledge transfer through documentation, and on-site
+  training{{< sidenote id="sn-cn-1">}}The startup was sold and we
+  became responsible to train a newly recruited team to maintain the
+  project.{{< /sidenote >}}.
++ Design and implementation of a new development framework{{< sidenote
+  id="sn-cn-3" side="left" >}}This is where I initially started to form the idea
+  of the [[https://github.com/DataChefHQ/sparkle/][Sparkle]] project.{{< /sidenote >}} for the data mesh project,
+  with the goal of reducing the complexity of the original
+  infrastructure and reducing the hiring barrier caused by various
+  technologies required for the project{{< sidenote id="sn-cn-2"
+  >}}The majority of the data mesh infrastructure inside the company
+  was developed using [[https://www.scala-lang.org/][Scala]], which regardless of the obvious benefits
+  proved to introduce new challenges like difficulty in hiring new
+  developers. This is an special barrier given the fact the company
+  wasn't known as a tech company, and unable to attract seasoned Scala
+  developers.{{< /sidenote >}}.
++ Helping to define practical strategies to merge the existing
+  technologies with the new parent company. Each company had a strong
+  data team, and our goal was to design a process for integrating the
+  best technologies and products each side could offer.
+** Client #1 at [[https://datachef.co][DataChef]]
++ *Timeline:* Feb 2020 → Jan 2022
++ *Role*: Data Engineer
+
+The client here is the same as [[#headline-5][Client #2]], and where I gradually grew
+into a lead role. As one of the first members of the team with the
+goal of creating a modern data architecture based on [[https://en.wikipedia.org/wiki/Data_mesh][data mesh]]
+practices, I was active on:
+
++ Designing and building business applications, from business logic
+  implementation, to pipeline orchestration and CI/CD requirements.
++ Contributing to the carve-out process from the initial parent
+  company. I was mainly responsible for ensuring the data mesh team,
+  has all services which initially were provided by the parent
+  company.
++ Contributing to the recommendation system project to find the best
+  bidding strategy for B2B traders. The Engineering part of my
+  responsibilities included everything from data extraction to sending
+  notifications to the traders.
++ Integrating real-time streaming pipelines to generate live reports
+  based on the analytical data.
+** Client #0 at [[https://datachef.co][DataChef]]: DataChef itself
++ *Timeline:* Feb 2019 → Present
++ *Role:* Senior Software (Data) Engineer
+
+I was recruited as the first employee of the company, with the goal of
+transitioning into a data engineer. Since becoming a data product
+company was one of the DataChef's initial goals, and learning we can
+help our clients better using products and services based on those, I
+had the opportunity to work on some interesting internal projects,
+notably:
+
++ *WordMentor*: an application to perform style transfer mutation on
+  text, helping users to adapt the writing style of their favorite
+  writers.
++ *Night's Watch*: This governer application integrates Google's and
+  Facebook's marketing services to enable marketing teams to have full
+  control over their data quality at scale.
++ *RaceGraph*: A data visualization web application able to generate bar
+  chart race visualization on user input data and allow them to
+  customize the output. The exciting challenge of this application was
+  implementation of a serverless architecture for all of the
+  components including a video rendering mechanism to output the
+  result.
++ *BRAINS*: An LLM powered AI agent, enabling operational teams with
+  high quality online incident support.
+
+** Backend Developer at [[https://realtybloc.com/][Realtybloc]]
++ *Timeline:* Jul 2018 → Jan 2019
+
+This project required liberation of data provided by a thirdparty
+RETS{{< sidenote id="sn-rets">}}Real Estate Transaction Standard. More
+information can be found [[https://en.wikipedia.org/wiki/Real_Estate_Transaction_Standard][here]].{{< /sidenote >}} service. The idea was
+to use this information to source data within many other websites
+supported by Realtybloc.
+
+To delivery this I developed a high-performance [[https://graphql.org/][GraphQL]] API designed
+to serve 500+ realtor websites with real-time property
+data. Implemented multi-stage crawling and caching strategies to
+optimize data retrieval and storage. Engineered a robust security
+system to manage data access based on client authorization levels,
+ensuring data integrity and confidentiality.
+
+** Fullstack Engineer at Zabanshenas
+*Timeline:* Jan 2018 → Mar 2019
+
+Zabanshenas was an startup helping its clients to learn new language
+based on the modern resources available across internet.
+
+I helped them by engineering a comprehensive translation management
+system using Django and React, seamlessly integrated with Discourse
+for robust user authentication and access control. This versatile
+platform empowered the internal team to efficiently manage and
+localize diverse media types, including:
+
+1. Podcasts
+2. Videos
+3. Text content
+
+The system streamlined the translation workflow, enhancing
+productivity and ensuring consistent quality across all content types.
+
+** Freelance Web Developer
+*Timeline:* Feb 2014 → Nov 2017
+
+During this period I was active in different startups and small
+projects namely:
+
++ *Appforall*: A mobile application market place active in Iran.
++ *AppStore.ir*: Another mobile application market place targetting iOS
+  users active in Iran.
++ *FooF*: A dating startup application focused on being funny.
 
 * Catch me
 
