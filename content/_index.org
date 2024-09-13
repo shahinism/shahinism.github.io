@@ -18,6 +18,19 @@ life. This page is a window into my passions and ongoing adventure.
 
 {{< toc >}}
 
+* Find me Online
+
++ {{< ot_mastodon >}}: Where I tweet since I refuged from Elon's X{{<
+  sidenote id="sn-x" side="left" >}}Some day I'll elaborate more on
+  this particular case. However, until then, I'd invite you to watch
+  [[https://www.youtube.com/watch?v=WYQxG4KEzvo][this video]] by Johnny Harris.{{< /sidenote >}}.
++ [[https://github.com/shahinism][Github]]: Where I stack all my creations.
++ [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I share unpopular opinions, enjoy 2nd hand memes and
+  receive funny job offers!
++ [[https://shahin.blog][Old Blog Archive]]: I've been blogging for quite some time, but not as
+  consistent as I like. Here you can find the old archive of
+  everything I wrote.
+
 * Public Projects
 
 The Following is a list of open source projects which I was one of the
@@ -143,7 +156,7 @@ lead data engineer for the [[https://en.wikipedia.org/wiki/Data_mesh][data mesh]
 + *Timeline:* Feb 2020 → Jan 2022
 + *Role*: Data Engineer
 
-The client here is the same as [[#headline-5][Client #2]], and where I gradually grew
+The client here is the same as [[#headline-6][Client #2]], and where I gradually grew
 into a lead role. As one of the first members of the team with the
 goal of creating a modern data architecture based on [[https://en.wikipedia.org/wiki/Data_mesh][data mesh]]
 practices, I was active on:
@@ -231,16 +244,3 @@ projects namely:
 + *AppStore.ir*: Another mobile application market place targetting iOS
   users active in Iran.
 + *FooF*: A dating startup application focused on being funny.
-
-* Catch me
-
-+ [[https://shahin.blog][Blog Archive]]: I've been blogging for quite some time, but not as
-  consistent as I like. Here you can find the old archive of
-  everything I wrote.
-+ [[https://linkedin.com/in/shahinism][LinkedIn]]: Where I share unpopular opinions, enjoy 2nd hand memes and
-  receive funny job offers!
-+ [[https://github.com/shahinism][Github]]: Where I stack all my creations.
-+ {{< ot_mastodon >}}: Where I tweet since I refuged from Elon's X{{<
-  sidenote id="sn-x" side="left" >}}Some day I'll elaborate more on
-  this particular case. However, until then, I'd invite you to watch
-  [[https://www.youtube.com/watch?v=WYQxG4KEzvo][this video]] by Johnny Harris.{{< /sidenote >}}.
