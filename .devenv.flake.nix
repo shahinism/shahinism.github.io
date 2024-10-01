@@ -1,7 +1,7 @@
 {
   inputs =
     let
-      version = "1.0.8";
+      version = "1.2.0";
 system = "x86_64-linux";
 devenv_root = "/home/shahin/projects/personal/shahinism.github.io";
 devenv_dotfile = ./.devenv;
@@ -22,7 +22,7 @@ devenv_istesting = false;
 
       outputs = { nixpkgs, ... }@inputs:
         let
-          version = "1.0.8";
+          version = "1.2.0";
 system = "x86_64-linux";
 devenv_root = "/home/shahin/projects/personal/shahinism.github.io";
 devenv_dotfile = ./.devenv;
@@ -118,14 +118,31 @@ devenv_istesting = false;
                   v
               );
           };
+
+          build = options: config:
+            lib.concatMapAttrs
+              (name: option:
+                if builtins.hasAttr "type" option then
+                  if option.type.name == "output" || option.type.name == "outputOf" then {
+                    ${name} = config.${name};
+                  } else { }
+                else
+                  let v = build option config.${name};
+                  in if v != { } then {
+                    ${name} = v;
+                  } else { }
+              )
+              options;
         in
         {
           packages."${system}" = {
             optionsJSON = options.optionsJSON;
+            # deprecated
             inherit (config) info procfileScript procfileEnv procfile;
             ci = config.ciDerivation;
           };
           devenv = config;
+          build = build project.options project.config;
           devShell."${system}" = config.shell;
         };
       }
