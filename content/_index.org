@@ -1,5 +1,5 @@
 #+TITLE: Shahinism
-#+DATE: 2023-09-10T08:00:00-07:00
+#+DATE: 2024-09-10T08:00:00-07:00
 #+DRAFT: false
 #+AUTHOR: Reza Khanipour
 #+DESCRIPTION: A window to the personal and professional journey of Reza Khanipour, a sotware and data engineer.
