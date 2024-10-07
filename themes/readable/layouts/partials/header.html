@@ -1,2 +1,11 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<h1>{{ .Title }}</h1>
+<p class="author">{{ .Params.author | default .Site.Author.name }}
+  <label for="sn-menu" class="sidenote-toggle sidenote-number"></label>
+  <input type="checkbox" id="sn-menu" class="sidenote-toggle" />
+  <span class="sidenote">
+    <a href="/">About</a> | <a href="/blog">Blogs</a> | <a href="/#headline-1">Contact</a>
+  </span>
+  {{ if .IsPage }}
+  <br/> {{ .Date.Format "Jan 2006" }}
+  {{ end }}
+</p>

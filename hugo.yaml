@@ -4,6 +4,9 @@ title: 'Shahinism'
 theme: 'readable'
 enableRobotsTXT: true
 
+author:
+  name: 'Reza Khanipour'
+
 markup:
   highlight:
     anchorLineNos: true
