@@ -20,7 +20,7 @@ life. This page is a window into my passions and ongoing adventure.
 
 * Find me Online
 
-+ {{< ot_mastodon >}}: Where I tweet since I refuged from Elon's X{{<
++ [[https://mastodon.world/@shahinism][Mastodon]]: Where I tweet since I refuged from Elon's X{{<
   sidenote id="sn-x" side="left" >}}Some day I'll elaborate more on
   this particular case. However, until then, I'd invite you to watch
   [[https://www.youtube.com/watch?v=WYQxG4KEzvo][this video]] by Johnny Harris.{{< /sidenote >}}.
