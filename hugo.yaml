@@ -7,6 +7,10 @@ enableRobotsTXT: true
 author:
   name: 'Reza Khanipour'
 
+params:
+  comments:
+    webmention: true
+
 markup:
   highlight:
     anchorLineNos: true

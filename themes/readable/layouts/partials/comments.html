@@ -1,0 +1,18 @@
+{{ if .Site.Params.comments.webmention }}
+    <h2>Webmentions</h2>
+    <p>
+      What do you think about this post? You can share your opinion by one of the following options:
+      <ol>
+        <li><strong>Mastodon: </strong>Link, boost or reply to a toot, or <a href="https://mastodonshare.com/share">make a new one about it.</a></li>
+        <li><strong>Your blog: </strong>Send a <a href="https://indieweb.org/Webmention">webmention</a> from your own site to <code>{{ .Permalink }}</code>.</li>
+      </ol>
+    </p>
+
+    <div id="webmentions">
+      <!-- TODO load webmentions on build time and schedule Github to update it every night -->
+      Oh cool 😎, you surf the web with no JS? That's fine, you just
+      can't see the webmentions listed here, as for the timebeing I'm
+      using JS to load them (hopefully this will change when I have
+      more time).
+    </div>
+{{ end }}

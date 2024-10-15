@@ -10,3 +10,18 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+{{ if .Site.Params.comments.webmention }}
+  {{ $webmention_js := resources.Get "js/webmention.js" | minify }}
+    <script src="{{ $webmention_js.RelPermalink }}"
+            data-page-url="{{ .Permalink }}"
+            async></script>
+{{ end }}
+
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+<script>
+  anchors.options = {
+    placement: 'left'
+  }
+  anchors.add();
+</script>

@@ -1,8 +1,5 @@
 {{ define "main" }}
 {{ .Content }}
+{{ partial "comments" . }}
 {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-
-<h2>What do you think?</h2>
-
-
 {{ end }}
